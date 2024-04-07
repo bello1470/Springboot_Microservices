@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sdkmanrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-Microservices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="Added Root Maven Project">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/CatalogServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/TestCatalogServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +37,17 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2emQHps4xrkpeRqm65hNRGUXy4Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -44,6 +55,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="TestCatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bellotech.org.catalogservice.TestCatalogServiceApplication" />
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bellotech.org.catalogservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SpringBoot-Microservices" />
       <method v="2">
@@ -121,6 +145,11 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestCatalogServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,6 +160,20 @@
       <option name="presentableId" value="Default" />
       <updated>1712507189199</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Root Maven Project">
+      <option name="closed" value="true" />
+      <created>1712511487375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712511487375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added Root Maven Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Root Maven Project" />
   </component>
 </project>
