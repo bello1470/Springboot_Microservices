@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="Added test class for Reuseable same container definition for both local dev">
-      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spotless-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/ContainerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/ContainerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/TestCatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="Undo Catalog services module setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,8 +212,43 @@
       <option name="project" value="LOCAL" />
       <updated>1712593062269</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added docker-compose file for postgres">
+      <option name="closed" value="true" />
+      <created>1712597727237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712597727237</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Catalog services module setup">
+      <option name="closed" value="true" />
+      <created>1712599282625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712599282625</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Undo Catalog services module setup">
+      <option name="closed" value="true" />
+      <created>1712600095488</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712600095488</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -230,6 +256,9 @@
     <MESSAGE value="Added Catalog-service dependency and git-commit-id-maven plugins" />
     <MESSAGE value="Added Springdoc-openAI dependency to Catalog-service" />
     <MESSAGE value="Added test class for Reuseable same container definition for both local dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test class for Reuseable same container definition for both local dev" />
+    <MESSAGE value="Added docker-compose file for postgres" />
+    <MESSAGE value="Catalog services module setup" />
+    <MESSAGE value="Undo Catalog services module setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Undo Catalog services module setup" />
   </component>
 </project>
