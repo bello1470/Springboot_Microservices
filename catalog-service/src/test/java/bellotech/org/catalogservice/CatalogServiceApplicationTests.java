@@ -5,9 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 
 @SpringBootTest
-@Import(
-        ContainerConfig.class
-)
+@Import(ContainerConfig.class)
 class CatalogServiceApplicationTests {
 
     @Test
