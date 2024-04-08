@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="Catalog services module setup with github Action" />
+    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="Delete Catalog services module setup with github Action">
+      <change afterPath="$PROJECT_DIR$/.github/workflow/catalog-service.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712601193560</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Delete Catalog services module setup with github Action">
+      <option name="closed" value="true" />
+      <created>1712601306861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712601306861</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +302,7 @@
     <MESSAGE value="Undo Catalog services module setup" />
     <MESSAGE value="Catalog services module setup" />
     <MESSAGE value="Catalog services module setup with github Action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Catalog services module setup with github Action" />
+    <MESSAGE value="Delete Catalog services module setup with github Action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Catalog services module setup with github Action" />
   </component>
 </project>
