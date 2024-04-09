@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="Delete Catalog services module setup with github Action">
-      <change afterPath="$PROJECT_DIR$/.github/workflow/catalog-service.yml" afterDir="false" />
+    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment=" Adding Catalog services module setup with github Action">
+      <change afterPath="$PROJECT_DIR$/taskfile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712601306861</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=" Adding Catalog services module setup with github Action">
+      <option name="closed" value="true" />
+      <created>1712601688223</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712601688223</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +312,7 @@
     <MESSAGE value="Catalog services module setup" />
     <MESSAGE value="Catalog services module setup with github Action" />
     <MESSAGE value="Delete Catalog services module setup with github Action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Catalog services module setup with github Action" />
+    <MESSAGE value=" Adding Catalog services module setup with github Action" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Adding Catalog services module setup with github Action" />
   </component>
 </project>
