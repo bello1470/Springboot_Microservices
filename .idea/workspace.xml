@@ -4,9 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment=" Adding Catalog services module setup with github Action">
-      <change afterPath="$PROJECT_DIR$/taskfile.yml" afterDir="false" />
+    <list default="true" id="d749a8b1-f9f3-487b-a5f0-e16d0a0447b9" name="Changes" comment="Updating properties file">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/domain/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/domain/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/domain/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/domain/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/domain/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/domain/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/domain/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/web/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/web/controller/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V1__create_products_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V2__add_books_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/AbstractIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/domain/ProductRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/web/controller/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/resources/test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflow/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflow/catalog-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/bellotech/org/catalogservice/CatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/bellotech/org/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskfile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/taskfile.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -26,9 +56,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2emQHps4xrkpeRqm65hNRGUXy4Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,25 +74,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CatalogServiceApplication">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bellotech.org.catalogservice.domain" />
+      <recent name="bellotech.org.catalogservice.web.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.shouldReturnEmptyWhenProductCodeNotExits">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bellotech.org.catalogservice.CatalogServiceApplication" />
-      <module name="catalog-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bellotech.org.catalogservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bellotech.org.catalogservice.TestCatalogServiceApplication" />
       <module name="catalog-service" />
       <extension name="coverage">
         <pattern>
@@ -85,6 +117,52 @@
       <option name="PACKAGE_NAME" value="bellotech.org.catalogservice" />
       <option name="MAIN_CLASS_NAME" value="bellotech.org.catalogservice.CatalogServiceApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bellotech.org.catalogservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bellotech.org.catalogservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="bellotech.org.catalogservice.web.controller.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bellotech.org.catalogservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bellotech.org.catalogservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="bellotech.org.catalogservice.domain.ProductRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.shouldReturnEmptyWhenProductCodeNotExits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bellotech.org.catalogservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bellotech.org.catalogservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="bellotech.org.catalogservice.domain.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldReturnEmptyWhenProductCodeNotExits" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,9 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.shouldReturnEmptyWhenProductCodeNotExits" />
         <item itemvalue="Application.CatalogServiceApplication" />
+        <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.ProductControllerTest" />
         <item itemvalue="JUnit.CatalogServiceApplicationTests" />
-        <item itemvalue="Application.TestCatalogServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +367,39 @@
       <option name="project" value="LOCAL" />
       <updated>1712601688223</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" Adding Taskfile">
+      <option name="closed" value="true" />
+      <created>1712696998781</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712696998781</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updating properties file">
+      <option name="closed" value="true" />
+      <created>1712783820186</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712783820186</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updating properties file">
+      <option name="closed" value="true" />
+      <created>1713048951014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713048951014</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updating properties file">
+      <option name="closed" value="true" />
+      <created>1713211409531</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713211409533</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +425,8 @@
     <MESSAGE value="Catalog services module setup with github Action" />
     <MESSAGE value="Delete Catalog services module setup with github Action" />
     <MESSAGE value=" Adding Catalog services module setup with github Action" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Adding Catalog services module setup with github Action" />
+    <MESSAGE value=" Adding Taskfile" />
+    <MESSAGE value="Updating properties file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating properties file" />
   </component>
 </project>
