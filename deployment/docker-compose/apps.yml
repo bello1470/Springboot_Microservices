@@ -1,4 +1,3 @@
-version: '3.8'
 name: 'spring-boot-microservices-project'
 services:
   catalog-db:
@@ -18,4 +17,4 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1g
+          memory: 700m
